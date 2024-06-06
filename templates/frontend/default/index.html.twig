@@ -1,0 +1,236 @@
+{% extends 'base.html.twig' %}
+{% block stylesheets %}
+    <!-- Bootstrap core CSS -->
+    <link href="{{ asset('bundles/frontend/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/frontend/css/toastr.scss') }}" rel="stylesheet" type="text/css">
+
+
+{% endblock %}
+
+{% block body %}
+
+    <!-- Page Content -->
+    <header class="container-fluid contenido" {% block stylelogin %}{% endblock %}>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <h1>Test</h1>
+            </div>
+        </nav>
+        <div class="container titulo">
+            <!-- Page Heading/Breadcrumbs -->
+            {% block  containertitle %}
+            {% endblock %}
+        </div>
+    </header>
+
+    {% block content %}
+
+        <h3>Tarea 2</h3>
+        <p>{{ saludo }}</p>
+        <h3>Tarea 4</h3>
+        <p>Acá está el cálculo que se solicita en la tarea 4, inytectando como dependencia el servicio "DefaultService", y llamando el método Calculo: <strong>{{ calculo }}</strong></p>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <h3 class="row  justify-content-center">Tarea 5 (formulario)</h3>
+
+            <!-- Contact Form -->
+            <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <div class="row  justify-content-center">
+                <div class="col-md-4 mt-2">
+                    <form id="form-login" action="#" data-url="{{ url('frontendautenticar') }}">
+
+                        <input type="hidden" id="target" name="target" value="" />
+
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <input type="text" class="form-control form-control-validate" id="email" name="email"
+                                       placeholder="Ingrese un correo">
+                            </div>
+                        </div>
+                        <div class="control-group form-group">
+                            <div class="controls">
+                                <input type="password" class="form-control form-control-validate" id="password" name="password" placeholder="Ingrese contraseña">
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary" id="loginButton" style="width: 100%; margin-bottom: .5rem!important;">Ingresar</button>
+                        </div>
+
+                        <div class="col-12 text-center">
+                            <a class="text-secondary" style="cursor: pointer"><u>¿Olvidaste tu contraseña?</u></a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="row  justify-content-center">Tareas de Javascript</h2>
+            <h3 class="row  justify-content-center">Tarea 2 (invertir cadena de texto)</h3>
+
+            <div class="row  justify-content-center">
+                <div class="col-md-4 mt-2">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="string" class="form-control form-control-validate" id="cadena" name="cadena" placeholder="Ingrese cadena de texto">
+                        </div>
+                    </div>
+
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="string" class="form-control form-control-validate" id="cadenainvertida" name="cadenainvertida" placeholder="Cadena invertida" readonly>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="invertirButton" style="width: 100%; margin-bottom: .5rem!important;">Invertir</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container mt-5">
+            <h2 class="row  justify-content-center">Tareas de Javascript</h2>
+            <h3 class="row  justify-content-center">Tarea 4 (Filtrar números pares)</h3>
+
+            <div class="row  justify-content-center">
+                <h5 class="row  justify-content-center">La cadena de números proporcionada debe tener el formato (12,58,...) números separados por ",".</h5>
+
+                <div class="col-md-4 mt-2">
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="string" class="form-control form-control-validate" id="numeros" name="numeros" placeholder="Ingrese números a filtrar">
+                        </div>
+                    </div>
+
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <input type="string" class="form-control form-control-validate" id="numerospares" name="numerospares" placeholder="Números pares" readonly>
+                        </div>
+                    </div>
+
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="filtrarButton" style="width: 100%; margin-bottom: .5rem!important;">Filtrar</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container mt-5">
+            <h3 class="row  justify-content-center">Tarea 6 (Añadir listener a botón)</h3>
+
+            <div class="row  justify-content-center">
+                    <div class="col-4 text-center">
+                        <button type="submit" class="btn btn-primary" id="myButton" style="width: 100%; margin-bottom: .5rem!important;">Botón con listener</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container mt-5 peticion" id="form-result"
+             data-urlbackend="{{ url_backend }}">
+            <h3 class="row  justify-content-center">Tarea 8 (petición AJAX)</h3>
+
+            <div class="row  justify-content-center">
+                <div class="control-group form-group">
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="peticionButton" style="width: 100%; margin-bottom: .5rem!important;">Petición</button>
+                    </div>
+                    <div class="controls">
+                        <input type="string" class="form-control form-control-validate" id="peticion" name="peticion" placeholder="Petición Ajax" readonly>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-5 peticion">
+            <h3 class="row  justify-content-center">Tarea 10 (Localstore)</h3>
+            <h5 class="row  justify-content-center">Para esta tarea nos remontamos a la tarea 5 de symfony, que es la creacion del formulario de login más arriba
+            si inserta un email, al dar click en el botón ingresar, este mail se almacenara en el localstore, y al dar click en el botón Devolver email, se mostrará.</h5>
+
+            <div class="row justify-content-center">
+                <div class="control-group form-group col-md-4">
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="devolverUsuarioButton" style="width: 100%; margin-bottom: .5rem!important;">Devolver email</button>
+                    </div>
+                    <div class="">
+                        <input type="string" class="form-control form-control-validate" id="emaillocalstore" name="emaillocalstore" placeholder="Petición Ajax" readonly>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+    {% endblock %}
+
+
+{% endblock %}
+
+{% block javascripts %}
+
+    <!--begin::Global Theme Bundle -->
+
+    <script>
+        var KTAppOptions = {
+            "colors": {
+                "state": {
+                    "brand": "#22b9ff",
+                    "light": "#ffffff",
+                    "dark": "#282a3c",
+                    "primary": "#5867dd",
+                    "success": "#34bfa3",
+                    "info": "#36a3f7",
+                    "warning": "#ffb822",
+                    "danger": "#fd3995"
+                },
+                "base": {
+                    "label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+                    "shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+                }
+            }
+        };
+    </script>
+
+    {% block javascriptspecific %}
+
+        <script src="{{ asset('bundles/frontend/js/metronic/plugins.bundle.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('bundles/frontend/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('bundles/frontend/js/metronic/scripts.bundle.min.js') }}" type="text/javascript"></script>
+
+        <script src="{{ asset('bundles/frontend/js/myapp.js') }}?{{ 'now' | date('U') }}"></script>
+
+
+        <!-- Third party plugin JS-->
+        <script src="{{ asset('bundles/frontend/vendor/jquery/jquery.js') }}"></script>
+        <script src="{{ asset('bundles/frontend/vendor/jquery/jquery.slim.js') }}"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+
+
+        <script src="{{ asset('bundles/frontend/js/pages/default.js') }}?{{ 'now' | date('U') }}"></script>
+    {% endblock %}
+
+    <script>
+        jQuery(document).ready(function () {
+            console.log('test')
+            Default.init();
+        });
+    </script>
+
+{% endblock %}

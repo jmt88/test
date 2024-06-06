@@ -1,0 +1,345 @@
+2023-02-01 13:37:36	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 'Florida',
+    'zip' => '33131',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-01 13:37:39	---	Server error: `POST https://us10.api.mailchimp.com/3.0/lists` resulted in a `503 Service Unavailable` response:
+<!DOCTYPE html>
+<html role='document'>
+<head>
+<meta charset='utf-8'>
+<meta content='en' name='language'>
+<meta content=' (truncated...)
+
+2023-02-01 13:37:46	---	{"access_token":"1000.ce58c40eb10e9ee34c065a13174af5e0.1b7ea338512f8e5f7e82a43250b69327","scope":"ZohoBooks.fullaccess.READ ZohoBooks.fullaccess.CREATE ZohoBooks.fullaccess.UPDATE ZohoBooks.fullaccess.DELETE","api_domain":"https://www.zohoapis.com","token_type":"Bearer","expires_in":3600}
+2023-02-01 13:37:51	---	Client error: `PUT https://books.zoho.com/api/v3/contacts/3452125000000204001?organization_id=794273148` resulted in a `404 Not Found` response:
+{"code":1002,"message":"Contacto no existe."}
+
+2023-02-01 13:38:15	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 'Florida',
+    'zip' => '33131',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-01 13:38:26	---	cURL error 6: Could not resolve host: us10.api.mailchimp.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://us10.api.mailchimp.com/3.0/lists
+2023-02-01 13:38:47	---	{"access_token":"1000.ce59bcbe631b4ef9a23a9cb349eefe38.102c04dd6d373a29fcb83cbf484567d2","scope":"ZohoBooks.fullaccess.READ ZohoBooks.fullaccess.CREATE ZohoBooks.fullaccess.UPDATE ZohoBooks.fullaccess.DELETE","api_domain":"https://www.zohoapis.com","token_type":"Bearer","expires_in":3600}
+2023-02-01 13:38:55	---	Client error: `PUT https://books.zoho.com/api/v3/contacts/3452125000000204001?organization_id=794273148` resulted in a `404 Not Found` response:
+{"code":1002,"message":"Contacto no existe."}
+
+2023-02-04 13:03:45	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-04 13:03:45	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-04 21:01:38	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n2-20020a05620a294200b006f9ddaaf01esm5152174qkp.102 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n2-20020a05620a294200b006f9ddaaf01esm5152174qkp.102 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:00:28	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 190-20020a370bc7000000b0073513000ef2sm434186qkl.29 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 190-20020a370bc7000000b0073513000ef2sm434186qkl.29 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:07:25	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m3-20020ac807c3000000b003b848759ed8sm8031752qth.47 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials m3-20020ac807c3000000b003b848759ed8sm8031752qth.47 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:08:35	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t9-20020a05620a034900b0071eddd3bebbsm8163332qkm.81 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t9-20020a05620a034900b0071eddd3bebbsm8163332qkm.81 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:10:51	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j8-20020ac85c48000000b003b9a6d54b6csm8183275qtj.59 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j8-20020ac85c48000000b003b9a6d54b6csm8183275qtj.59 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:14:41	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g17-20020ae9e111000000b006ce580c2663sm8213485qkm.35 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g17-20020ae9e111000000b006ce580c2663sm8213485qkm.35 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:18:34	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bk19-20020a05620a1a1300b006f9f3c0c63csm8337316qkb.32 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bk19-20020a05620a1a1300b006f9f3c0c63csm8337316qkb.32 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:28:03	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o11-20020ac8698b000000b003b9f1b7895asm8048093qtq.10 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o11-20020ac8698b000000b003b9f1b7895asm8048093qtq.10 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 13:28:30	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 131-20020a370689000000b0072b5242bd0bsm8187671qkg.77 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 131-20020a370689000000b0072b5242bd0bsm8187671qkg.77 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 16:54:09	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-06 16:54:41	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-06 17:07:25	---	Expected response code "220" but got empty code.
+2023-02-06 21:46:37	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-06 21:49:07	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-06 21:49:27	---	Connection could not be established with host "ssl://smtp.gmail.com:465": stream_socket_client(): php_network_getaddresses: getaddrinfo failed: Host desconocido. 
+2023-02-06 21:59:49	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o28-20020ac8429c000000b003b880ef08acsm8882438qtl.35 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o28-20020ac8429c000000b003b880ef08acsm8882438qtl.35 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-06 22:04:35	---	Failed to authenticate on SMTP server with username "no-reply@disrupsoft.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r19-20020ac87953000000b003b6953fbb8fsm8877302qtt.32 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials r19-20020ac87953000000b003b6953fbb8fsm8877302qtt.32 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".".
+2023-02-07 22:44:21	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 22:45:05	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 22:45:47	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 22:46:17	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 22:47:05	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 22:52:03	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)
+2023-02-07 23:17:12	---	array (
+  'name' => 'Credit and Investment Bank',
+  'permission_reminder' => 'You are receiving this email because you opted in via our website.',
+  'email_type_option' => false,
+  'contact' => 
+  array (
+    'company' => 'Credit and Investment Bank',
+    'address1' => '848 Brickell Ave',
+    'city' => 'Miami',
+    'country' => 'US',
+    'state' => 
+    Proxies\__CG__\App\Entity\State::__set_state(array(
+       '__initializer__' => 
+      Closure::__set_state(array(
+      )),
+       '__cloner__' => 
+      Closure::__set_state(array(
+      )),
+       '__isInitialized__' => false,
+       'stateId' => 27,
+       'codigo' => NULL,
+       'nombre' => NULL,
+       'estado' => NULL,
+       'pais' => NULL,
+    )),
+    'zip' => '32007-0001',
+  ),
+  'campaign_defaults' => 
+  array (
+    'from_name' => 'Zoon Loyalty',
+    'from_email' => 'info@zoonloyalty.io',
+    'subject' => 'Welcome Zoon Loyalty',
+    'language' => 'EN_US',
+  ),
+)

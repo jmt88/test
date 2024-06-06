@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+{# <!--[if IE 8]> #}
+{# <html lang="en" class="ie8 no-js" data-ng-app="app"> <![endif]--> #}
+{# <!--[if IE 9]> #}
+{# <html lang="en" class="ie9 no-js" data-ng-app="app"> <![endif]--> #}
+{# <!--[if !IE]><!--> #}
+<html lang="en" data-ng-app="app" ng-strict-di> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>{% block title %}{% endblock %} - Test</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- facebook meta -->
+    <meta name="facebook-domain-verification" content="k4nf2wp0ktgff2p93vbr2az7puaptk" />
+    <link href="{{ asset('bundles/frontend/css/bootstrap.min.css') }}" rel="stylesheet">
+
+    {% block metas_titulo %} {% endblock %}
+    {% block metas_descripcion %} {% endblock %}
+    {% block keywords %} {% endblock %}
+
+    {% block stylesheets %}{% endblock %}
+
+
+</head>
+<body id="page-top" class="{% block body_class %}{% endblock %}">
+
+{% block body %}
+
+{% endblock %}
+</body>
+
+</html>
+
+
+
+{#<!-- Traduccion -->#}
+{#{% include 'frontend/traduccion.html.twig' %}#}
+
+{% block javascripts %}
+
+{% endblock %}

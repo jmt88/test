@@ -1,0 +1,14 @@
+frontendhello:
+  path:  /hello/{name}
+  defaults: { _controller: App\Controller\DefaultController::hello}
+  methods:    GET|POST
+
+frontendautenticar:
+  path:  /login
+  defaults: { _controller: App\Controller\DefaultController::login}
+  methods:    POST
+
+devolverCantidadProduct:
+  path:  /devolverCantidadProduct
+  defaults: { _controller: App\Controller\DefaultController::cantProducts}
+  methods:    GET

@@ -1,0 +1,6 @@
+#api
+api:
+  resource: '../src/Routes/'
+  type: directory
+  prefix:
+
