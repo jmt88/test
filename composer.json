@@ -76,7 +76,6 @@
         },
         "files": [
             "vendor/phpqrcode/qrlib.php",
-            "vendor/chilexpress/ChileExpress.php",
             "vendor/jpgraph/src/jpgraph.php",
             "vendor/jpgraph/src/jpgraph_pie.php",
             "vendor/jpgraph/src/jpgraph_bar.php",
